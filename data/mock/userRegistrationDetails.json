@@ -1,0 +1,3351 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#reports/authenticationMethods/userRegistrationDetails",
+  "value": [
+    {
+      "id": "6e595ed3-a8b3-47fa-98d0-752b1825bc54",
+      "userPrincipalName": "djohnson827@mock.uoguelph.example",
+      "userDisplayName": "Danielle Johnson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "0dde29a6-baa4-471a-9d24-67ac778eedb3",
+      "userPrincipalName": "jwalker363@mock.uoguelph.example",
+      "userDisplayName": "Joshua Walker",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "ccf3a171-56dc-4907-ba6c-34ab6712303a",
+      "userPrincipalName": "jrhodes690@mock.uoguelph.example",
+      "userDisplayName": "Jill Rhodes",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-06T12:00:00Z"
+    },
+    {
+      "id": "72d8567d-894a-45e4-b0b1-87ef310c0c00",
+      "userPrincipalName": "pmiller883@mock.uoguelph.example",
+      "userDisplayName": "Patricia Miller",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "fido2",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-20T12:00:00Z"
+    },
+    {
+      "id": "dfde4fbf-3ff3-40bf-b66e-cb15474ebc19",
+      "userPrincipalName": "rjohnson144@mock.uoguelph.example",
+      "userDisplayName": "Robert Johnson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-15T12:00:00Z"
+    },
+    {
+      "id": "8ce21ea3-db20-456e-9c81-5fe7ceda8bbb",
+      "userPrincipalName": "jwagner946@mock.uoguelph.example",
+      "userDisplayName": "Jeffery Wagner",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-15T12:00:00Z"
+    },
+    {
+      "id": "03c72ba8-d605-4770-8a63-f881ffd0f9d5",
+      "userPrincipalName": "agonzalez101@mock.uoguelph.example",
+      "userDisplayName": "Anthony Gonzalez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-18T12:00:00Z"
+    },
+    {
+      "id": "7b3a4e3e-7c52-4a17-a80a-c07a2a935d62",
+      "userPrincipalName": "dgardner993@mock.uoguelph.example",
+      "userDisplayName": "Debra Gardner",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-08T12:00:00Z"
+    },
+    {
+      "id": "fc3d3348-008d-4127-a104-61e32a25a888",
+      "userPrincipalName": "jlawrence219@mock.uoguelph.example",
+      "userDisplayName": "Jeffrey Lawrence",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": "f512c4c3-b253-4218-ac4a-37ea490617f2",
+      "userPrincipalName": "lsmith400@mock.uoguelph.example",
+      "userDisplayName": "Lisa Smith",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-14T12:00:00Z"
+    },
+    {
+      "id": "309d258c-27a0-43d7-bc96-7f79b7e99aca",
+      "userPrincipalName": "lwolfe749@mock.uoguelph.example",
+      "userDisplayName": "Linda Wolfe",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "bf7b539b-0f9a-4a4b-8acd-4e10bc594585",
+      "userPrincipalName": "mmoore304@mock.uoguelph.example",
+      "userDisplayName": "Matthew Moore",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "eb5cf467-80ba-4d64-ba0e-cfea958ca9ba",
+      "userPrincipalName": "srogers322@mock.uoguelph.example",
+      "userDisplayName": "Susan Rogers",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "14822f53-8201-4c62-b5f5-9b220e8fa8e0",
+      "userPrincipalName": "cdavis874@mock.uoguelph.example",
+      "userDisplayName": "Christopher Davis",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": "3c365296-dca0-4eec-acda-bacc1165e210",
+      "userPrincipalName": "mmunoz872@mock.uoguelph.example",
+      "userDisplayName": "Melanie Munoz",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-02T12:00:00Z"
+    },
+    {
+      "id": "9e8fc965-0a2c-427e-9832-685694340a03",
+      "userPrincipalName": "lblair414@mock.uoguelph.example",
+      "userDisplayName": "Lindsay Blair",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "50fd9d3f-85d5-4695-90b2-b633956b8c0c",
+      "userPrincipalName": "adudley084@mock.uoguelph.example",
+      "userDisplayName": "Amanda Dudley",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "3d1a85dd-506e-4a9a-b758-588dab73295b",
+      "userPrincipalName": "narnold958@mock.uoguelph.example",
+      "userDisplayName": "Nicholas Arnold",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "750cab75-4ccc-4bc2-a53f-8a28abf3e3fc",
+      "userPrincipalName": "mmontgome272@mock.uoguelph.example",
+      "userDisplayName": "Maria Montgomery",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "902059e4-ff9a-45c2-9f04-4aed75523327",
+      "userPrincipalName": "mray324@mock.uoguelph.example",
+      "userDisplayName": "Michelle Ray",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-15T12:00:00Z"
+    },
+    {
+      "id": "eeea163e-21e8-4c68-83e4-2caf8181a8cc",
+      "userPrincipalName": "jwilliams103@mock.uoguelph.example",
+      "userDisplayName": "Janet Williams",
+      "userType": "member",
+      "isAdmin": true,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "702cdd20-2862-48b8-88f4-ef125e9953d2",
+      "userPrincipalName": "jroberts358@mock.uoguelph.example",
+      "userDisplayName": "Jeremy Roberts",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "fcbb4e59-fbdd-4f7c-9c96-e9ec4d71c366",
+      "userPrincipalName": "chall854@mock.uoguelph.example",
+      "userDisplayName": "Christopher Hall",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-02T12:00:00Z"
+    },
+    {
+      "id": "4ca415ea-8dfa-4a56-912d-bc9aaaf91531",
+      "userPrincipalName": "cramirez827@mock.uoguelph.example",
+      "userDisplayName": "Craig Ramirez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-06T12:00:00Z"
+    },
+    {
+      "id": "1b66b5a9-e3c4-4657-9d8c-bbac43b409ef",
+      "userPrincipalName": "cdiaz955@mock.uoguelph.example",
+      "userDisplayName": "Cynthia Diaz",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "b7b56ea7-35eb-432d-9ad6-20ab48212ddb",
+      "userPrincipalName": "mclark761@mock.uoguelph.example",
+      "userDisplayName": "Mitchell Clark",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "81627cf1-4394-42e6-9a58-7e8aa25d6b29",
+      "userPrincipalName": "jzuniga352@mock.uoguelph.example",
+      "userDisplayName": "Joseph Zuniga",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": false,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "email"
+      ],
+      "defaultMfaMethod": "none",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "d450281c-6c6f-4633-a260-772317a0df49",
+      "userPrincipalName": "dlynch501@mock.uoguelph.example",
+      "userDisplayName": "Deborah Lynch",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "a319dcb4-217d-45a0-8568-11cd5563f616",
+      "userPrincipalName": "gdaniel284@mock.uoguelph.example",
+      "userDisplayName": "George Daniel",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": false,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "email"
+      ],
+      "defaultMfaMethod": "none",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "6d7ce3c9-b4a6-4f3c-8d3a-ed99711c21c9",
+      "userPrincipalName": "fgray269@mock.uoguelph.example",
+      "userDisplayName": "Frank Gray",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "b0e6a969-e213-42b0-b1ee-dba313432e61",
+      "userPrincipalName": "vbowman575@mock.uoguelph.example",
+      "userDisplayName": "Veronica Bowman",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "951f58d0-5e84-4058-95a8-04eb093923de",
+      "userPrincipalName": "acohen926@mock.uoguelph.example",
+      "userDisplayName": "Angela Cohen",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-02T12:00:00Z"
+    },
+    {
+      "id": "5d59cd2a-4eea-44e7-8ab5-4bde20a04502",
+      "userPrincipalName": "mparsons566@mock.uoguelph.example",
+      "userDisplayName": "Megan Parsons",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-20T12:00:00Z"
+    },
+    {
+      "id": "aabc25fa-3fe1-4e47-ae9b-ec3635c7936c",
+      "userPrincipalName": "jjohnson921@mock.uoguelph.example",
+      "userDisplayName": "Jeremy Johnson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "2790cebd-bfdd-43d9-9ee3-ac2af94d6204",
+      "userPrincipalName": "ladams106@mock.uoguelph.example",
+      "userDisplayName": "Leslie Adams",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "2d534dd0-cf8e-4c5a-8cc5-6569f9e8a369",
+      "userPrincipalName": "jhahn948@mock.uoguelph.example",
+      "userDisplayName": "Jason Hahn",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "550a1b46-ecab-4301-bc8f-7d292dea9493",
+      "userPrincipalName": "nedwards903@mock.uoguelph.example",
+      "userDisplayName": "Nancy Edwards",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "3f87e362-cf8d-446a-bc2c-bb0ddd334cc7",
+      "userPrincipalName": "dfoster802@mock.uoguelph.example",
+      "userDisplayName": "Diana Foster",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "09e9db0a-df46-4290-a1ee-411a1bac27a7",
+      "userPrincipalName": "rellis274@mock.uoguelph.example",
+      "userDisplayName": "Robin Ellis",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-12T12:00:00Z"
+    },
+    {
+      "id": "598336e3-75d6-4ed4-ab1f-a9f2d10bd1d0",
+      "userPrincipalName": "jwright880@mock.uoguelph.example",
+      "userDisplayName": "Joseph Wright",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-20T12:00:00Z"
+    },
+    {
+      "id": "5408f9ac-6601-4dd0-b170-f437a8f7ef5a",
+      "userPrincipalName": "abaker313@mock.uoguelph.example",
+      "userDisplayName": "Anna Baker",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "6651529e-8268-490b-a438-25b559e4b671",
+      "userPrincipalName": "bhurst286@mock.uoguelph.example",
+      "userDisplayName": "Brenda Hurst",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-12T12:00:00Z"
+    },
+    {
+      "id": "e08596db-1d87-4966-8710-d430f071d879",
+      "userPrincipalName": "rrobinson696@mock.uoguelph.example",
+      "userDisplayName": "Reginald Robinson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-02T12:00:00Z"
+    },
+    {
+      "id": "09cb3942-43f5-4a85-bbc9-f87af668a617",
+      "userPrincipalName": "whicks994@mock.uoguelph.example",
+      "userDisplayName": "Whitney Hicks",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": false,
+      "isMfaRegistered": false,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [],
+      "defaultMfaMethod": "none",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "6fb78271-504d-481f-8953-5b63ba81edd9",
+      "userPrincipalName": "cwilliams112@mock.uoguelph.example",
+      "userDisplayName": "Christopher Williams",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-12T12:00:00Z"
+    },
+    {
+      "id": "30a900ad-939b-462d-a645-f129629c2ae3",
+      "userPrincipalName": "dburton621@mock.uoguelph.example",
+      "userDisplayName": "Daniel Burton",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-02T12:00:00Z"
+    },
+    {
+      "id": "ecf27e76-8519-4ff4-806e-d6e36fa17735",
+      "userPrincipalName": "lhenderso261@mock.uoguelph.example",
+      "userDisplayName": "Laura Henderson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "softwareOneTimePasscode"
+      ],
+      "defaultMfaMethod": "softwareOneTimePasscode",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "bcae8081-bdf0-40aa-b0b5-156bb82c9074",
+      "userPrincipalName": "bjames826@mock.uoguelph.example",
+      "userDisplayName": "Bryan James",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "aa0b7b14-f2e9-402d-91e9-cdaa6e6981a3",
+      "userPrincipalName": "wrice687@mock.uoguelph.example",
+      "userDisplayName": "Wendy Rice",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-08T12:00:00Z"
+    },
+    {
+      "id": "1fe771d6-d917-4793-a9d3-c2e6505cc686",
+      "userPrincipalName": "tvalencia943@mock.uoguelph.example",
+      "userDisplayName": "Tasha Valencia",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-15T12:00:00Z"
+    },
+    {
+      "id": "5380b904-688c-4015-aab9-7e494f2d4796",
+      "userPrincipalName": "ale738@mock.uoguelph.example",
+      "userDisplayName": "Alexander Le",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "aa38d0a1-6ba2-4efe-b11c-6eb62095eef6",
+      "userPrincipalName": "eherrera413@mock.uoguelph.example",
+      "userDisplayName": "Erin Herrera",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "9d9262af-2c8d-4e44-a71e-43a6bf85bf0e",
+      "userPrincipalName": "jdavidson963@mock.uoguelph.example",
+      "userDisplayName": "Joseph Davidson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "fido2",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-18T12:00:00Z"
+    },
+    {
+      "id": "49732d6c-4dca-4fb7-801a-9a8bd56f0350",
+      "userPrincipalName": "dgraham583@mock.uoguelph.example",
+      "userDisplayName": "Daniel Graham",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "77097749-527e-4cfa-a79a-c9aa9b4e2c24",
+      "userPrincipalName": "smckay216@mock.uoguelph.example",
+      "userDisplayName": "Shawn Mckay",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "cb323e35-7922-4ac2-82dc-4c8e36b5229a",
+      "userPrincipalName": "nbaker453@mock.uoguelph.example",
+      "userDisplayName": "Nancy Baker",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "a9f25336-83f4-49a9-88a6-39d015b52908",
+      "userPrincipalName": "vwhite923@mock.uoguelph.example",
+      "userDisplayName": "Vincent White",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "c04a96c4-f3b6-4fe1-9184-332417e8392a",
+      "userPrincipalName": "rharrell649@mock.uoguelph.example",
+      "userDisplayName": "Rita Harrell",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "0640be0f-25b8-4d4b-b2fa-2de8ce7ae7f6",
+      "userPrincipalName": "kfowler241@mock.uoguelph.example",
+      "userDisplayName": "Kenneth Fowler",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "12a4def0-c4bb-47a9-9988-68dd9c7c7377",
+      "userPrincipalName": "chernande048@mock.uoguelph.example",
+      "userDisplayName": "Chelsea Hernandez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-14T12:00:00Z"
+    },
+    {
+      "id": "b24445a7-b7e5-4481-b1c6-81ec935f2b0a",
+      "userPrincipalName": "kryan467@mock.uoguelph.example",
+      "userDisplayName": "Kathryn Ryan",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-12T12:00:00Z"
+    },
+    {
+      "id": "b00805cc-a7f3-4ae9-a5c7-3c443e75c3b4",
+      "userPrincipalName": "kmoreno394@mock.uoguelph.example",
+      "userDisplayName": "Kimberly Moreno",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-15T12:00:00Z"
+    },
+    {
+      "id": "f53d4330-cdda-44ba-ad06-e8cf3805f907",
+      "userPrincipalName": "anguyen006@mock.uoguelph.example",
+      "userDisplayName": "Aaron Nguyen",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "fido2",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "d92c9227-eadf-4085-bfcb-75468eb22579",
+      "userPrincipalName": "ahickman713@mock.uoguelph.example",
+      "userDisplayName": "Andrew Hickman",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": "87f8424d-aae6-4fc1-b6f2-dbfecd29a36f",
+      "userPrincipalName": "ndecker125@mock.uoguelph.example",
+      "userDisplayName": "Natasha Decker",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-15T12:00:00Z"
+    },
+    {
+      "id": "714c7df4-e434-4d51-8158-1092f335cba3",
+      "userPrincipalName": "kbrown573@mock.uoguelph.example",
+      "userDisplayName": "Kyle Brown",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-13T12:00:00Z"
+    },
+    {
+      "id": "722764e6-8c41-461b-a827-a1b9d4a02e53",
+      "userPrincipalName": "narroyo628@mock.uoguelph.example",
+      "userDisplayName": "Natalie Arroyo",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-18T12:00:00Z"
+    },
+    {
+      "id": "425a609f-7337-4599-b984-4388dc8aee30",
+      "userPrincipalName": "ctucker919@mock.uoguelph.example",
+      "userDisplayName": "Christopher Tucker",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "8573e793-c715-42b9-840c-5d9146fde062",
+      "userPrincipalName": "chodges770@mock.uoguelph.example",
+      "userDisplayName": "Chad Hodges",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-13T12:00:00Z"
+    },
+    {
+      "id": "3c07c574-4925-4af1-b6aa-e05b13d5f2f7",
+      "userPrincipalName": "kanderson497@mock.uoguelph.example",
+      "userDisplayName": "Katie Anderson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "fido2",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "3b33f3d8-269c-4696-a36c-7b8714a0bccb",
+      "userPrincipalName": "tpierce279@mock.uoguelph.example",
+      "userDisplayName": "Thomas Pierce",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-08T12:00:00Z"
+    },
+    {
+      "id": "8ae8905b-54b4-4482-a858-6eba6a34c854",
+      "userPrincipalName": "jbrennan393@mock.uoguelph.example",
+      "userDisplayName": "Joseph Brennan",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "63b4c08b-6b8e-469f-9538-5b0e34f3193c",
+      "userPrincipalName": "rlewis478@mock.uoguelph.example",
+      "userDisplayName": "Rodney Lewis",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "softwareOneTimePasscode"
+      ],
+      "defaultMfaMethod": "softwareOneTimePasscode",
+      "lastUpdatedDateTime": "2026-11-08T12:00:00Z"
+    },
+    {
+      "id": "c3fe0183-e172-4725-9b52-ca5805000bc6",
+      "userPrincipalName": "ablair927@mock.uoguelph.example",
+      "userDisplayName": "Amber Blair",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "c0e3befd-4c71-40fe-9a0c-dd7cf1578470",
+      "userPrincipalName": "jcollins590@mock.uoguelph.example",
+      "userDisplayName": "James Collins",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "ccc42903-8bcf-43a1-bc10-fa52bf5d2fdf",
+      "userPrincipalName": "wsantos400@mock.uoguelph.example",
+      "userDisplayName": "Wanda Santos",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "7c5308bf-6f92-425e-85df-16b6382c043f",
+      "userPrincipalName": "sholmes618@mock.uoguelph.example",
+      "userDisplayName": "Samuel Holmes",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "67814c1f-cc53-4e36-addc-3e13ab3b4d37",
+      "userPrincipalName": "dwalker030@mock.uoguelph.example",
+      "userDisplayName": "David Walker",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "9f4c3b79-fb10-487f-a0ac-3703eb67146a",
+      "userPrincipalName": "mchapman742@mock.uoguelph.example",
+      "userDisplayName": "Matthew Chapman",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-15T12:00:00Z"
+    },
+    {
+      "id": "06f028ff-a9ba-4a27-907b-fe36978648f8",
+      "userPrincipalName": "jrobinson547@mock.uoguelph.example",
+      "userDisplayName": "Jerry Robinson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "0cdf742b-2e85-4b21-b631-de9ddde9f863",
+      "userPrincipalName": "cwelch086@mock.uoguelph.example",
+      "userDisplayName": "Chad Welch",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-18T12:00:00Z"
+    },
+    {
+      "id": "56666f9f-53ac-4ab9-b467-2cd9362f5e5c",
+      "userPrincipalName": "jwhitehea267@mock.uoguelph.example",
+      "userDisplayName": "Jeremy Whitehead",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "6bebac31-d4f8-4d72-b382-1cfdc083b73a",
+      "userPrincipalName": "mjones780@mock.uoguelph.example",
+      "userDisplayName": "Michele Jones",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-04T12:00:00Z"
+    },
+    {
+      "id": "0d557b61-8a17-4dfe-bfc0-0dc804f64d86",
+      "userPrincipalName": "jcaldwell259@mock.uoguelph.example",
+      "userDisplayName": "John Caldwell",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": false,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "email"
+      ],
+      "defaultMfaMethod": "none",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "a6d964a3-f510-4b53-87fe-e39f1190f938",
+      "userPrincipalName": "janderson975@mock.uoguelph.example",
+      "userDisplayName": "Jason Anderson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "9f0fda8d-0537-4ff6-96d7-b3b833094d35",
+      "userPrincipalName": "sduncan042@mock.uoguelph.example",
+      "userDisplayName": "Selena Duncan",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "fido2",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-08T12:00:00Z"
+    },
+    {
+      "id": "90604f62-1d48-4071-ab61-a7b1793b4c32",
+      "userPrincipalName": "tmueller157@mock.uoguelph.example",
+      "userDisplayName": "Thomas Mueller",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": false,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "email"
+      ],
+      "defaultMfaMethod": "none",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "2af43ab7-5e6f-4a07-8453-6f1d41992fdf",
+      "userPrincipalName": "llee971@mock.uoguelph.example",
+      "userDisplayName": "Lindsey Lee",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "d1bdb8c0-c71d-4e60-9d52-06abb7e6427c",
+      "userPrincipalName": "cjordan621@mock.uoguelph.example",
+      "userDisplayName": "Collin Jordan",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "93676a02-4fdc-4e1b-adcb-8cb60692dc63",
+      "userPrincipalName": "rowens168@mock.uoguelph.example",
+      "userDisplayName": "Rodney Owens",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "13748146-32c5-4d89-b70b-3420f1043785",
+      "userPrincipalName": "jnunez694@mock.uoguelph.example",
+      "userDisplayName": "Jessica Nunez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-21T12:00:00Z"
+    },
+    {
+      "id": "d9acd158-4d34-45c5-85c1-4eb4b27b3d90",
+      "userPrincipalName": "tgarcia607@mock.uoguelph.example",
+      "userDisplayName": "Tracey Garcia",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-06T12:00:00Z"
+    },
+    {
+      "id": "8861fe18-58e2-4888-8a83-81bec85aca46",
+      "userPrincipalName": "rmorgan701@mock.uoguelph.example",
+      "userDisplayName": "Richard Morgan",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": "033d2bce-575a-4d2c-a5c5-650c8186a576",
+      "userPrincipalName": "mwright439@mock.uoguelph.example",
+      "userDisplayName": "Michelle Wright",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-13T12:00:00Z"
+    },
+    {
+      "id": "a2b5b498-5cb8-4aed-b5f6-2c976efb63b1",
+      "userPrincipalName": "jwest870@mock.uoguelph.example",
+      "userDisplayName": "James West",
+      "userType": "member",
+      "isAdmin": true,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "bbda0242-2d17-4fc9-af7c-15ea272a6d8e",
+      "userPrincipalName": "rramirez913@mock.uoguelph.example",
+      "userDisplayName": "Robert Ramirez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "softwareOneTimePasscode"
+      ],
+      "defaultMfaMethod": "softwareOneTimePasscode",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "c64ee6e3-89c5-431a-ab6c-1016cee624d0",
+      "userPrincipalName": "jleblanc535@mock.uoguelph.example",
+      "userDisplayName": "John Leblanc",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "44b591f7-97ac-4aa8-bb24-88a3d36357b6",
+      "userPrincipalName": "scallahan496@mock.uoguelph.example",
+      "userDisplayName": "Scott Callahan",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-04T12:00:00Z"
+    },
+    {
+      "id": "3e6dd58b-7367-428d-a1b2-94de4767d76c",
+      "userPrincipalName": "awilliams331@mock.uoguelph.example",
+      "userDisplayName": "Andrea Williams",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "561e16d1-6105-416b-ab0e-664e9c3eb2d5",
+      "userPrincipalName": "yhuff769@mock.uoguelph.example",
+      "userDisplayName": "Yvette Huff",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "cc3ebdde-5ad5-4f06-b64d-7c877cd0129d",
+      "userPrincipalName": "thouse030@mock.uoguelph.example",
+      "userDisplayName": "Tanya House",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-12T12:00:00Z"
+    },
+    {
+      "id": "e14eb70d-b380-473a-989d-9d4ae15ca666",
+      "userPrincipalName": "mmartin265@mock.uoguelph.example",
+      "userDisplayName": "Melinda Martin",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-15T12:00:00Z"
+    },
+    {
+      "id": "15eabb27-30e9-42f2-b2b4-3abf8441aefd",
+      "userPrincipalName": "tlewis283@mock.uoguelph.example",
+      "userDisplayName": "Todd Lewis",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "softwareOneTimePasscode"
+      ],
+      "defaultMfaMethod": "softwareOneTimePasscode",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "b0cbc61f-3d85-4e89-8217-14298e200724",
+      "userPrincipalName": "rbrown248@mock.uoguelph.example",
+      "userDisplayName": "Richard Brown",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "fido2",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "4b5305e5-17d2-482e-846a-0df5cafda613",
+      "userPrincipalName": "ngalloway488@mock.uoguelph.example",
+      "userDisplayName": "Nicholas Galloway",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-20T12:00:00Z"
+    },
+    {
+      "id": "94e0d3ba-a9f9-48b2-8e63-84bb3e493f43",
+      "userPrincipalName": "jbowers227@mock.uoguelph.example",
+      "userDisplayName": "Joseph Bowers",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-20T12:00:00Z"
+    },
+    {
+      "id": "ff233d5f-6ced-415d-9800-7c0287ea7ff5",
+      "userPrincipalName": "shenderso378@mock.uoguelph.example",
+      "userDisplayName": "Spencer Henderson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "455ac762-7428-4656-b3ee-4d3b5a104129",
+      "userPrincipalName": "scowan764@mock.uoguelph.example",
+      "userDisplayName": "Susan Cowan",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "softwareOneTimePasscode",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "softwareOneTimePasscode",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "50c7c006-314d-4441-b8a6-171f1ee34dc4",
+      "userPrincipalName": "ahiggins314@mock.uoguelph.example",
+      "userDisplayName": "Angela Higgins",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": "bd1531c8-3764-4bda-b108-d4482f65fafa",
+      "userPrincipalName": "ephillips123@mock.uoguelph.example",
+      "userDisplayName": "Eric Phillips",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "19bc143e-fb02-4ebb-8872-9a4d98c7472a",
+      "userPrincipalName": "triley496@mock.uoguelph.example",
+      "userDisplayName": "Tanya Riley",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "4d6168bd-2def-4193-9c62-b3a23a3c563e",
+      "userPrincipalName": "aadkins853@mock.uoguelph.example",
+      "userDisplayName": "Amy Adkins",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "0df56ac6-f96b-448a-8ba6-eab94639447b",
+      "userPrincipalName": "bsilva015@mock.uoguelph.example",
+      "userDisplayName": "Brian Silva",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "de53790a-a34b-4cf6-a053-da42f1afdb65",
+      "userPrincipalName": "wfarrell567@mock.uoguelph.example",
+      "userDisplayName": "Wesley Farrell",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-12T12:00:00Z"
+    },
+    {
+      "id": "7a8d03aa-782a-45e0-88ca-765192f5df7b",
+      "userPrincipalName": "eyu771@mock.uoguelph.example",
+      "userDisplayName": "Eric Yu",
+      "userType": "member",
+      "isAdmin": true,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "softwareOneTimePasscode",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "softwareOneTimePasscode",
+      "lastUpdatedDateTime": "2026-11-02T12:00:00Z"
+    },
+    {
+      "id": "f0e98b3b-40a2-4c60-8d27-0659f72ada9b",
+      "userPrincipalName": "clopez452@mock.uoguelph.example",
+      "userDisplayName": "Christopher Lopez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": false,
+      "isMfaRegistered": false,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [],
+      "defaultMfaMethod": "none",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "93b7a886-12f7-4c97-bde3-1a516694c343",
+      "userPrincipalName": "bleonard883@mock.uoguelph.example",
+      "userDisplayName": "Brooke Leonard",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "softwareOneTimePasscode"
+      ],
+      "defaultMfaMethod": "softwareOneTimePasscode",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "f2f9e5fa-9016-4161-8fa7-01cd2631d00b",
+      "userPrincipalName": "jwilson645@mock.uoguelph.example",
+      "userDisplayName": "Joe Wilson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "6a8a616f-c3b2-40d0-8edd-dfcd1e52d770",
+      "userPrincipalName": "psanchez312@mock.uoguelph.example",
+      "userDisplayName": "Pamela Sanchez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-20T12:00:00Z"
+    },
+    {
+      "id": "61607459-85c7-404b-8693-da1139c6a1ca",
+      "userPrincipalName": "bharvey621@mock.uoguelph.example",
+      "userDisplayName": "Brooke Harvey",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "6dc7cac7-fd72-4050-96a9-954fdc33e1f9",
+      "userPrincipalName": "rsilva462@mock.uoguelph.example",
+      "userDisplayName": "Robert Silva",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "bd767e35-f5c9-4047-9c10-c5720f6b40d0",
+      "userPrincipalName": "adonovan313@mock.uoguelph.example",
+      "userDisplayName": "Alexandra Donovan",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "fido2",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-20T12:00:00Z"
+    },
+    {
+      "id": "14c8b3b4-a911-4192-83bf-d9313605bf54",
+      "userPrincipalName": "jmoran102@mock.uoguelph.example",
+      "userDisplayName": "James Moran",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-14T12:00:00Z"
+    },
+    {
+      "id": "00af5b3a-2812-459a-9337-739e8d4f5d27",
+      "userPrincipalName": "jfoster161@mock.uoguelph.example",
+      "userDisplayName": "John Foster",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "fido2",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "49c13de7-3b42-46c5-885b-15fb4a8ff810",
+      "userPrincipalName": "eevans419@mock.uoguelph.example",
+      "userDisplayName": "Emily Evans",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "aff8754d-1238-4630-b43b-65a2dc0f2fcf",
+      "userPrincipalName": "lwalton724@mock.uoguelph.example",
+      "userDisplayName": "Leslie Walton",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "ef04e57d-cdcc-433a-a943-4aa096fc734d",
+      "userPrincipalName": "cellis240@mock.uoguelph.example",
+      "userDisplayName": "Charles Ellis",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-13T12:00:00Z"
+    },
+    {
+      "id": "26242b40-a5cb-43a2-b98d-1ca68b6870b5",
+      "userPrincipalName": "yferrell203@mock.uoguelph.example",
+      "userDisplayName": "Yolanda Ferrell",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": false,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "email"
+      ],
+      "defaultMfaMethod": "none",
+      "lastUpdatedDateTime": "2026-11-18T12:00:00Z"
+    },
+    {
+      "id": "cae9b4a7-2a79-4a68-8f44-704f1247ea4e",
+      "userPrincipalName": "clewis931@mock.uoguelph.example",
+      "userDisplayName": "Charles Lewis",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "49e2623d-ebd3-4616-91b7-8d8ed3016989",
+      "userPrincipalName": "jmahoney315@mock.uoguelph.example",
+      "userDisplayName": "Joseph Mahoney",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": "670acc5c-b321-4f21-8dd8-eb85b04d3376",
+      "userPrincipalName": "nsuarez450@mock.uoguelph.example",
+      "userDisplayName": "Nicole Suarez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "1497d658-7010-4719-be69-5d0d8a3c3b5e",
+      "userPrincipalName": "mmoore966@mock.uoguelph.example",
+      "userDisplayName": "Mike Moore",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-02T12:00:00Z"
+    },
+    {
+      "id": "40181c6e-9a8c-4a3c-9283-aac7bc0a6a5d",
+      "userPrincipalName": "mwarner613@mock.uoguelph.example",
+      "userDisplayName": "Martha Warner",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "fido2",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-06T12:00:00Z"
+    },
+    {
+      "id": "dc4ad56b-d601-4237-ac9e-d156f63fce41",
+      "userPrincipalName": "carcher027@mock.uoguelph.example",
+      "userDisplayName": "Cheryl Archer",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "d248a9a7-ac1a-4554-83c7-5611ffe3fa49",
+      "userPrincipalName": "dsmith590@mock.uoguelph.example",
+      "userDisplayName": "Destiny Smith",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "7135f221-a6c9-437f-84da-d06a7872bdeb",
+      "userPrincipalName": "levans276@mock.uoguelph.example",
+      "userDisplayName": "Lisa Evans",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "a2814044-6f96-4882-95d8-2980ff37d19c",
+      "userPrincipalName": "emcmillan939@mock.uoguelph.example",
+      "userDisplayName": "Elizabeth Mcmillan",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-12T12:00:00Z"
+    },
+    {
+      "id": "5553b2fe-6889-403e-9913-f9d3785299f4",
+      "userPrincipalName": "dwilson834@mock.uoguelph.example",
+      "userDisplayName": "Dennis Wilson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "7ed70ed7-b194-490b-a961-929e546e035a",
+      "userPrincipalName": "dtran329@mock.uoguelph.example",
+      "userDisplayName": "Daniel Tran",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-15T12:00:00Z"
+    },
+    {
+      "id": "50843242-168b-4625-b46f-78910964fbbf",
+      "userPrincipalName": "jjacobs296@mock.uoguelph.example",
+      "userDisplayName": "Joseph Jacobs",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "dd6ac7b8-6778-443b-85c5-b37af85e06a1",
+      "userPrincipalName": "jharris259@mock.uoguelph.example",
+      "userDisplayName": "Jennifer Harris",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-04T12:00:00Z"
+    },
+    {
+      "id": "69ca97d2-7644-44fd-8ae7-69edde8ede0b",
+      "userPrincipalName": "cbaker527@mock.uoguelph.example",
+      "userDisplayName": "Cynthia Baker",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": "7f9d3e64-c1a6-423b-9f64-eeed5c9d927d",
+      "userPrincipalName": "twhitehea056@mock.uoguelph.example",
+      "userDisplayName": "Tracy Whitehead",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-06T12:00:00Z"
+    },
+    {
+      "id": "218a1536-8c99-4894-845d-cc38341c6494",
+      "userPrincipalName": "mdavis641@mock.uoguelph.example",
+      "userDisplayName": "Meghan Davis",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-08T12:00:00Z"
+    },
+    {
+      "id": "1f15c7b6-7c16-428d-b2c0-8394e17f29e1",
+      "userPrincipalName": "rhill950@mock.uoguelph.example",
+      "userDisplayName": "Rodney Hill",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "8d03c91e-4f8d-4238-a88b-78b5b5b453ca",
+      "userPrincipalName": "awise030@mock.uoguelph.example",
+      "userDisplayName": "Adam Wise",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "e9b5c5cf-d766-4cda-be04-90593985fb62",
+      "userPrincipalName": "dgreen015@mock.uoguelph.example",
+      "userDisplayName": "Dana Green",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "7f95897c-276a-46ce-9507-55d9a5d04d53",
+      "userPrincipalName": "jarnold117@mock.uoguelph.example",
+      "userDisplayName": "Joyce Arnold",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-20T12:00:00Z"
+    },
+    {
+      "id": "d5b077e0-6a5d-432b-85ff-2c83b495db4e",
+      "userPrincipalName": "rsmith956@mock.uoguelph.example",
+      "userDisplayName": "Ronald Smith",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "6232b17a-2507-4181-8d1f-b54074eff545",
+      "userPrincipalName": "cware495@mock.uoguelph.example",
+      "userDisplayName": "Charles Ware",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-12T12:00:00Z"
+    },
+    {
+      "id": "dd30de89-22f2-45f2-a11b-868dbf0d073d",
+      "userPrincipalName": "rgardner196@mock.uoguelph.example",
+      "userDisplayName": "Rebecca Gardner",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "81fb18b3-c9a7-491f-af2a-e71357021049",
+      "userPrincipalName": "maguilar072@mock.uoguelph.example",
+      "userDisplayName": "Mary Aguilar",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": false,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "email"
+      ],
+      "defaultMfaMethod": "none",
+      "lastUpdatedDateTime": "2026-11-14T12:00:00Z"
+    },
+    {
+      "id": "96418ced-d664-4264-8c6e-27ffb9de7a3a",
+      "userPrincipalName": "eanderson274@mock.uoguelph.example",
+      "userDisplayName": "Earl Anderson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-19T12:00:00Z"
+    },
+    {
+      "id": "585a0afa-7bfd-4c12-89e0-6ab37250ee18",
+      "userPrincipalName": "knolan594@mock.uoguelph.example",
+      "userDisplayName": "Kyle Nolan",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "softwareOneTimePasscode",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "softwareOneTimePasscode",
+      "lastUpdatedDateTime": "2026-11-04T12:00:00Z"
+    },
+    {
+      "id": "5260001e-eecf-47d2-b491-76f46090d697",
+      "userPrincipalName": "lvalencia341@mock.uoguelph.example",
+      "userDisplayName": "Laura Valencia",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-12T12:00:00Z"
+    },
+    {
+      "id": "3bcabf85-620a-40ac-9261-549d3d225c30",
+      "userPrincipalName": "rclark891@mock.uoguelph.example",
+      "userDisplayName": "Rachel Clark",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "b489d070-7914-48a8-bea4-ff31517400f8",
+      "userPrincipalName": "jgarcia877@mock.uoguelph.example",
+      "userDisplayName": "John Garcia",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "d21c82f8-cada-4f80-a9e7-82d4fd08b32c",
+      "userPrincipalName": "khenson936@mock.uoguelph.example",
+      "userDisplayName": "Kimberly Henson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "80962718-2051-4cef-897a-1e10f6febc0e",
+      "userPrincipalName": "roliver668@mock.uoguelph.example",
+      "userDisplayName": "Richard Oliver",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "d85480f0-dfca-40b7-99b1-7e80dea4ae17",
+      "userPrincipalName": "espears989@mock.uoguelph.example",
+      "userDisplayName": "Eric Spears",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "fido2",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-15T12:00:00Z"
+    },
+    {
+      "id": "b8f21423-03ed-41f8-b4f9-3d17e912b4bf",
+      "userPrincipalName": "mcherry451@mock.uoguelph.example",
+      "userDisplayName": "Michelle Cherry",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-06T12:00:00Z"
+    },
+    {
+      "id": "78308930-1327-41bc-a784-378ff84f16b3",
+      "userPrincipalName": "lkeith148@mock.uoguelph.example",
+      "userDisplayName": "Lisa Keith",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-12T12:00:00Z"
+    },
+    {
+      "id": "a65bb1f2-65c1-4795-b155-16bc9f8ded97",
+      "userPrincipalName": "adoyle801@mock.uoguelph.example",
+      "userDisplayName": "Angel Doyle",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-12T12:00:00Z"
+    },
+    {
+      "id": "a075e927-5110-4492-b442-7e0b61484bb3",
+      "userPrincipalName": "mgalvan083@mock.uoguelph.example",
+      "userDisplayName": "Martin Galvan",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "softwareOneTimePasscode",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "softwareOneTimePasscode",
+      "lastUpdatedDateTime": "2026-11-20T12:00:00Z"
+    },
+    {
+      "id": "3c19e71d-1184-45ad-9e11-d2cd0930aef6",
+      "userPrincipalName": "lshields736@mock.uoguelph.example",
+      "userDisplayName": "Leah Shields",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "fa745761-6f18-4108-9723-199dbf2c14a0",
+      "userPrincipalName": "ladams647@mock.uoguelph.example",
+      "userDisplayName": "Lisa Adams",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "e746ccb9-4ca9-4f07-b1aa-0f6a2a96e1e2",
+      "userPrincipalName": "krodrigue101@mock.uoguelph.example",
+      "userDisplayName": "Kristin Rodriguez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-04T12:00:00Z"
+    },
+    {
+      "id": "5bc440f1-4b1a-469b-8e5d-d462cbd00ef2",
+      "userPrincipalName": "mgarrison030@mock.uoguelph.example",
+      "userDisplayName": "Monica Garrison",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "90e0a95b-697c-4923-87fa-841a3e83b91f",
+      "userPrincipalName": "jvelasque384@mock.uoguelph.example",
+      "userDisplayName": "Jeffrey Velasquez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": "deef580f-9c07-4751-9437-45092cd1586a",
+      "userPrincipalName": "storres699@mock.uoguelph.example",
+      "userDisplayName": "Steven Torres",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-08T12:00:00Z"
+    },
+    {
+      "id": "9549c931-e9af-499d-bf67-1eec3da70577",
+      "userPrincipalName": "lperez392@mock.uoguelph.example",
+      "userDisplayName": "Laura Perez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "softwareOneTimePasscode",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "softwareOneTimePasscode",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "415d174a-75a6-4981-8104-a8b5a34db7c5",
+      "userPrincipalName": "alee147@mock.uoguelph.example",
+      "userDisplayName": "Andrew Lee",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-15T12:00:00Z"
+    },
+    {
+      "id": "8beddb12-ad77-482f-89a2-3a89e6b5a92c",
+      "userPrincipalName": "mlin683@mock.uoguelph.example",
+      "userDisplayName": "Mark Lin",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-06T12:00:00Z"
+    },
+    {
+      "id": "966b1964-fcd6-4dca-9876-fd09f1faf665",
+      "userPrincipalName": "tramirez162@mock.uoguelph.example",
+      "userDisplayName": "Tammy Ramirez",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-07T12:00:00Z"
+    },
+    {
+      "id": "ffd6f232-32ff-4294-8d57-d880d865d69a",
+      "userPrincipalName": "dross307@mock.uoguelph.example",
+      "userDisplayName": "Darlene Ross",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": "5be4bf51-9269-4698-a1a1-17293cb98350",
+      "userPrincipalName": "therrera394@mock.uoguelph.example",
+      "userDisplayName": "Tina Herrera",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "6553867d-a881-4fd3-947d-577bfa5a91ca",
+      "userPrincipalName": "swilson589@mock.uoguelph.example",
+      "userDisplayName": "Sheila Wilson",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-06T12:00:00Z"
+    },
+    {
+      "id": "bea29dfe-c73f-4e1b-af90-8e3cdd750e98",
+      "userPrincipalName": "twhite282@mock.uoguelph.example",
+      "userDisplayName": "Tara White",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": false,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "email"
+      ],
+      "defaultMfaMethod": "none",
+      "lastUpdatedDateTime": "2026-11-21T12:00:00Z"
+    },
+    {
+      "id": "e726be23-e776-4886-9534-ee1d7f2984f5",
+      "userPrincipalName": "sbaker997@mock.uoguelph.example",
+      "userDisplayName": "Sydney Baker",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "a2f963a3-3810-4e66-9a31-b4cccd4b69a9",
+      "userPrincipalName": "dhamilton294@mock.uoguelph.example",
+      "userDisplayName": "Daniel Hamilton",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "c478f6f1-b88e-4318-816d-83edad81f8bd",
+      "userPrincipalName": "jedwards195@mock.uoguelph.example",
+      "userDisplayName": "Jessica Edwards",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "a5769411-a0a1-4839-a745-770418dfbc3c",
+      "userPrincipalName": "cdixon676@mock.uoguelph.example",
+      "userDisplayName": "Catherine Dixon",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-04T12:00:00Z"
+    },
+    {
+      "id": "bb7bee03-5d67-4bb1-945e-f2e4088a93ec",
+      "userPrincipalName": "pray041@mock.uoguelph.example",
+      "userDisplayName": "Paul Ray",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-18T12:00:00Z"
+    },
+    {
+      "id": "2cf6bf75-6a5e-4920-bf5a-e7e653a3dd5a",
+      "userPrincipalName": "jfletcher135@mock.uoguelph.example",
+      "userDisplayName": "Jonathan Fletcher",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "87e5f0fe-5da8-46d2-b8b3-8a8be05fb8bc",
+      "userPrincipalName": "afrost206@mock.uoguelph.example",
+      "userDisplayName": "Aaron Frost",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "f1b64afe-d31e-4f1a-a9ff-1cae41c8ca8c",
+      "userPrincipalName": "aball514@mock.uoguelph.example",
+      "userDisplayName": "Amanda Ball",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-05T12:00:00Z"
+    },
+    {
+      "id": "1d7bc313-cde2-4f1c-96b6-0afcded255d0",
+      "userPrincipalName": "jlambert494@mock.uoguelph.example",
+      "userDisplayName": "Judy Lambert",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "microsoftAuthenticatorPasswordless",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-06T12:00:00Z"
+    },
+    {
+      "id": "dc322c97-39c1-4262-b76c-8edec1101266",
+      "userPrincipalName": "mjones480@mock.uoguelph.example",
+      "userDisplayName": "Michael Jones",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "email"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-17T12:00:00Z"
+    },
+    {
+      "id": "6502d6a2-ca6a-4224-971e-16cc5da36f1b",
+      "userPrincipalName": "erivera693@mock.uoguelph.example",
+      "userDisplayName": "Elizabeth Rivera",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-02T12:00:00Z"
+    },
+    {
+      "id": "bfbf397b-ac3e-4b0d-9e5b-a13d746cdb77",
+      "userPrincipalName": "lcharles015@mock.uoguelph.example",
+      "userDisplayName": "Lee Charles",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": false,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "email"
+      ],
+      "defaultMfaMethod": "none",
+      "lastUpdatedDateTime": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": "f0b6f83f-a377-46f1-9289-f0ab618ae305",
+      "userPrincipalName": "jevans689@mock.uoguelph.example",
+      "userDisplayName": "Jennifer Evans",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "email"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-11T12:00:00Z"
+    },
+    {
+      "id": "9e9a9f83-0668-43ee-b8b2-b5493bdbc09e",
+      "userPrincipalName": "kortiz381@mock.uoguelph.example",
+      "userDisplayName": "Kyle Ortiz",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "a5cc8bf7-38ab-454c-9c2e-58deea4e3617",
+      "userPrincipalName": "rphillips906@mock.uoguelph.example",
+      "userDisplayName": "Richard Phillips",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-18T12:00:00Z"
+    },
+    {
+      "id": "1dde7969-6886-43db-a634-8e784d5c55c7",
+      "userPrincipalName": "dfisher065@mock.uoguelph.example",
+      "userDisplayName": "David Fisher",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-21T12:00:00Z"
+    },
+    {
+      "id": "1dba1267-7e1c-45a1-bef5-18a64dead645",
+      "userPrincipalName": "sbyrd144@mock.uoguelph.example",
+      "userDisplayName": "Shelby Byrd",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush",
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-03T12:00:00Z"
+    },
+    {
+      "id": "5efa9c5b-7421-4f46-a37e-4b0122bae10e",
+      "userPrincipalName": "rgilbert100@mock.uoguelph.example",
+      "userDisplayName": "Raven Gilbert",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": true,
+      "methodsRegistered": [
+        "passKeyDeviceBound",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-20T12:00:00Z"
+    },
+    {
+      "id": "278ed00d-ba02-46ef-be05-5787965befdf",
+      "userPrincipalName": "kkelley687@mock.uoguelph.example",
+      "userDisplayName": "Kevin Kelley",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": false,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "9d9b6231-7d45-48ef-956c-e8ea19597b5a",
+      "userPrincipalName": "amitchell907@mock.uoguelph.example",
+      "userDisplayName": "Aaron Mitchell",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "microsoftAuthenticatorPush",
+      "lastUpdatedDateTime": "2026-11-09T12:00:00Z"
+    },
+    {
+      "id": "71818dcf-379e-4c6e-9edb-0d3cb0b63bcf",
+      "userPrincipalName": "rcarpente418@mock.uoguelph.example",
+      "userDisplayName": "Russell Carpenter",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-14T12:00:00Z"
+    },
+    {
+      "id": "8b621d41-5e09-49ee-af88-bdecfb1e143b",
+      "userPrincipalName": "dmarshall456@mock.uoguelph.example",
+      "userDisplayName": "Diana Marshall",
+      "userType": "member",
+      "isAdmin": false,
+      "isSsprRegistered": true,
+      "isMfaRegistered": true,
+      "isMfaCapable": true,
+      "isPasswordlessCapable": false,
+      "methodsRegistered": [
+        "mobilePhone",
+        "microsoftAuthenticatorPush"
+      ],
+      "defaultMfaMethod": "mobilePhone",
+      "lastUpdatedDateTime": "2026-11-18T12:00:00Z"
+    }
+  ]
+}
