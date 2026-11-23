@@ -261,14 +261,25 @@ On every push and pull request: Ubuntu, Python 3.11, `pip install -r requirement
 
 ## 13. Results
 
-_Claude Code: fill this in with the real output of `python -m iam_insights.cli report` and `pytest` after the build._
+Real output on the committed mock data (`--users 200 --seed 42`, reference date 2026-11-22):
 
-- Mock users: …
-- MFA coverage: … | Passwordless-capable: …
-- SMS-default users: …
-- Risky findings: … (by rule: …)
-- Stale graduate accounts: …
-- Tests: … passing, …% coverage
+```
+$ python -m iam_insights.cli report
+Users: 200 | MFA coverage: 95.0% | Passwordless-capable: 24.0%
+SMS-default users to migrate: 40 (1 admins)
+Risky sign-in findings: 21 (high: 15, medium: 6)
+Graduated accounts still enabled past 30-day grace: 8
+```
+
+- Mock users: 200 (140 Student, 24 Staff, 16 Faculty, 20 Graduated, 12 of them still enabled) and 2,997 sign-ins over 30 days
+- MFA coverage: 95.0% | Passwordless-capable: 24.0%
+- Strongest method per user: passkey/FIDO2 30, Authenticator passwordless 18, Authenticator push 102, software OTP 10, SMS/voice 30, email only 8, none 2
+- SMS-default users: 40 (1 admin). 2 of the 3 admins have no passkey, FIDO2 key or Authenticator.
+- Risky findings: 21 (by rule: foreign single-factor 12, brute force 3, impossible travel 1, graduated account active 5)
+- Stale graduate accounts: 8 (4 more graduated inside the 30-day grace period and are correctly left alone)
+- Tests: 63 passing, 98% coverage of `iam_insights/`
+
+The stale-graduate count is measured against today's date, so it can grow as the recent graduates pass their grace period. Regenerate with `--today YYYY-MM-DD` to move the reference date.
 
 ## 14. Limitations and next steps
 
@@ -277,4 +288,4 @@ _Claude Code: fill this in with the real output of `python -m iam_insights.cli r
 
 ## 15. 60-second interview pitch
 
-"After applying, I wanted to learn Microsoft Graph, so I built Gryphon IAM Insights. It's a Python tool on mock university data in Graph's real JSON format. It builds an authentication-methods dashboard and lists users still on SMS to move to passkeys. It flags sign-ins a conditional access policy would challenge, like single-factor logins from outside Canada. And it does a dry-run cleanup of graduated accounts with an audit log. The same code can call the real Graph API. I tested it with my own account on `/me`. It has [N] pytest tests running in GitHub Actions. The data is synthetic, but it taught me how Graph paging, tokens, and permissions actually work."
+"After applying, I wanted to learn Microsoft Graph, so I built Gryphon IAM Insights. It's a Python tool on mock university data in Graph's real JSON format. It builds an authentication-methods dashboard and lists users still on SMS to move to passkeys. It flags sign-ins a conditional access policy would challenge, like single-factor logins from outside Canada. And it does a dry-run cleanup of graduated accounts with an audit log. The same code can call the real Graph API. I tested it with my own account on `/me`. It has 63 pytest tests running in GitHub Actions. The data is synthetic, but it taught me how Graph paging, tokens, and permissions actually work."
