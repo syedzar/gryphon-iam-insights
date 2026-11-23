@@ -152,6 +152,21 @@ def test_graph_other_http_error():
         source.get_me()
 
 
+def test_graph_error_includes_graphs_own_message():
+    body = {"error": {"code": "Request_ResourceNotFound", "message": "Resource does not exist."}}
+    source, _, _, _ = graph_with(fake_response(404, body=body))
+    with pytest.raises(GraphError, match=r"HTTP 404 for /me\. \(Request_ResourceNotFound: Resource does not exist\.\)"):
+        source.get_me()
+
+
+def test_graph_400_on_auth_methods_explains_personal_accounts():
+    source, _, _, _ = graph_with(fake_response(400))
+    with pytest.raises(GraphError) as err:
+        source.get_my_auth_methods()
+    assert err.value.status_code == 400
+    assert "Personal Microsoft accounts" in str(err.value)
+
+
 def test_tenant_report_403_falls_back_to_mock_with_message():
     fallback = MagicMock()
     fallback.get_sign_ins.return_value = [{"id": "mock-sign-in"}]

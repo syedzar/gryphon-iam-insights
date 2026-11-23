@@ -37,7 +37,7 @@ Risky sign-in findings: 21 (high: 15, medium: 6)
 Graduated accounts still enabled past 30-day grace: 8
 ```
 
-63 tests, 98% coverage, run on every push with GitHub Actions.
+65 tests, 98% coverage, run on every push with GitHub Actions.
 
 ## Stack
 

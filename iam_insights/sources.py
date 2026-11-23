@@ -51,6 +51,22 @@ class DataSource(Protocol):
     def get_my_auth_methods(self) -> list[dict]: ...
 
 
+def _graph_error_message(response) -> str:
+    """Pull Graph's own error text out of a failed response, e.g. ' (Request_BadRequest: ...)'.
+
+    Graph errors look like {"error": {"code": "...", "message": "..."}}. If the
+    body isn't JSON in that shape, return an empty string.
+    """
+    try:
+        error = response.json().get("error") or {}
+    except (ValueError, AttributeError):
+        return ""
+    code, message = error.get("code"), error.get("message")
+    if not isinstance(code, str) and not isinstance(message, str):
+        return ""
+    return f" ({': '.join(part for part in (code, message) if isinstance(part, str) and part)})"
+
+
 class GraphError(Exception):
     """A Graph call failed in a way we can explain to the user (401, 403, ...)."""
 
@@ -170,8 +186,18 @@ class GraphSource:
                 raise GraphError(f"Graph returned 403 Forbidden for {path}. {hint}", 403)
             if response.status_code == 429:
                 raise GraphError(f"Graph kept rate limiting {path} after {MAX_RETRIES} retries. Try again later.", 429)
+            if response.status_code == 400 and path.startswith("/me/authentication"):
+                # Authentication-method endpoints only exist for work/school (Entra ID) accounts.
+                raise GraphError(
+                    f"Graph returned 400 Bad Request for {path}. This endpoint only works for work or school "
+                    "(Entra ID) accounts. Personal Microsoft accounts (outlook.com, hotmail.com) don't support it, "
+                    "so this is expected if you signed in to Graph Explorer with a personal account.",
+                    400,
+                )
             if not response.ok:
-                raise GraphError(f"Graph returned HTTP {response.status_code} for {path}.", response.status_code)
+                detail = _graph_error_message(response)
+                raise GraphError(f"Graph returned HTTP {response.status_code} for {path}.{detail}",
+                                 response.status_code)
             return response.json()
         raise GraphError("unreachable")  # pragma: no cover
 
