@@ -1,0 +1,15 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets: never commit a real Graph token
+.env
+
+# Generated reports and audit logs
+output/*
+!output/.gitkeep
